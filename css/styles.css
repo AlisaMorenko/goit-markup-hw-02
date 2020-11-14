@@ -1,0 +1,99 @@
+/* цвет абзацев #757575 */
+/* цвет заголовков #212121 */
+/* цвет ховеров и фокусов #2196F3 (синий) */
+/*  белый везде #ffffff */
+/* в лого исп чистый черный #000000 */
+/* цвет фона белый */
+/* вторичный цвет фона #F5F4FA */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #000000;
+}
+
+body {
+    background-color: var(--primary-white-color:);
+    color: var(--primary-text-color);
+}
+
+/* стилизация логотипа */
+.logo {
+    color: var(--primary-black-color);
+}
+
+.main-logo {
+    color: var(--accent-color);
+}
+
+/* сброс маркеров */
+ul {
+    list-style: none;
+}
+
+/* стилизация хедера */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* стилизация секций блока main */
+.section .section-title,
+.section .title,
+.section .advantages-title {
+    color: var(--title-text-color);
+}
+
+.section.command {
+    background-color: #f5f4fa;
+}
+/* стилицация героя */
+.hero {
+        background-color: #2F303A;;
+}
+.hero .hero-title {
+    color: var(--primary-white-color);
+}
+
+/* button */
+.button {
+
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: #f5f4fa;
+}
+
+/* footer */
+.footer {
+    background-color: #2F303A;
+    color: var(--primary-white-color);
+    }
+
+.footer .logo {
+    color: var(--primary-white-color);
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6);
+}
