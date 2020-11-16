@@ -28,6 +28,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .main-logo {
@@ -45,6 +46,7 @@ header {
 
 .site-nav .link {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .site-nav .link.current {
@@ -53,6 +55,7 @@ header {
 
 .contacts .link {
     color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -120,6 +123,7 @@ header {
 .button {
     font-family: inherit;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .button.primary {
@@ -161,6 +165,7 @@ address {
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 /* стилизация секции galary на стр портфолио */
