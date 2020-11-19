@@ -5,6 +5,7 @@
     --primary-white-color: #ffffff;
     --primary-black-color: #000000;
     --secondary-bg-color: #F5F4FA;
+    --bg-color: #2F303A;
 }
 
 body {
@@ -93,8 +94,6 @@ header {
 
 .name {
     color: var(--title-text-color);
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19px;
@@ -106,7 +105,7 @@ header {
 }
 /* стилицация героя */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--bg-color);
     letter-spacing: 0.06em;
     text-align: center;
 }
@@ -150,7 +149,7 @@ header {
 
 /* footer */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--bg-color);;
     color: var(--primary-white-color);
     line-height: 1.71;
 }
@@ -180,4 +179,9 @@ address {
 .galary-text {
     font-size: 16px;
     line-height: 1.87;
+}
+
+.galary-link {
+    text-decoration: none;
+    color: inherit;
 }
